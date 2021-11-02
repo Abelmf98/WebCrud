@@ -1,0 +1,66 @@
+body{
+  width: 1200px;
+  /* font-size: 16px; */
+}
+header{
+  width: 1190px;
+  padding: 5px;
+  height: 90px;
+  background-color: brown;
+}
+
+
+#menunav{
+  background-color:tomato;
+  height: 100px;
+}
+
+ul{
+  list-style: none;
+  margin: auto;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  display: block;
+  padding: 20px 40px;
+  font-family: Arial;
+  font-weight: bold;
+  text-decoration: none;
+  color:darkred;
+}
+
+ul li a:hover{
+  background-color: silver;
+}
+
+main{
+  overflow: hidden;
+}
+#contenedor aside, #contenedor section{
+  /* float:left */
+  padding-top: 5px;
+  padding-left: 5px;
+  min-height: 595px;
+}
+
+aside{
+  background-color: purple;
+  width: 295px;
+  float: left;
+}
+
+#caja{
+  float: left;
+  background-color: lightgray;
+  width: 895px;
+}
+
+footer{
+  clear: left;
+  background-color: cyan;
+  height: 200px;
+}
